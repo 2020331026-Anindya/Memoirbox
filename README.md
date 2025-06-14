@@ -1,6 +1,3 @@
-
-
-```markdown
 <p align="center">
   <!-- Project Logo -->
   <img src="assets/logo.png" alt="MemoirBox Logo" width="200" />
@@ -155,15 +152,3 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_
 ## License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-```
-
-**Folder recap:**
-
-```
-MemoirBox/
-├── assets/
-│   └── logo.png
-├── docs/
-│   └── ui/         # your screenshot files here
-└── README.md       # replace content with above snippet
-```
