@@ -14,15 +14,16 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)  
-2. [Features](#features)  
-3. [Tech Stack](#tech-stack)  
-4. [Installation](#installation)  
-5. [Usage](#usage)  
-6. [UI Preview](#ui-preview)  
-7. [Roadmap](#roadmap)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Repository Structure](#repository-structure)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [UI Preview](#ui-preview)
+8. [Roadmap](#roadmap)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ---
 
@@ -60,6 +61,16 @@ In a world where moments pass in the blink of an eye, MemoirBox offers a secure,
 
 ---
 
+## Repository Structure
+
+The project is organized into separate services:
+
+- **frontend** – React interface built with Vite.
+- **backend** – Express API for core application logic.
+- **ai-service** – placeholder for machine learning features.
+
+---
+
 ## Installation
 
 ```bash
@@ -67,7 +78,7 @@ git clone git@github.com:2020331026-Anindya/MemoirBox.git
 cd MemoirBox
 npm install           # or yarn install
 cp .env.example .env  # set environment variables
-npm run dev           # spin up frontend + backend
+npm run dev           # spin up frontend, backend and AI service
 ```
 
 ---
