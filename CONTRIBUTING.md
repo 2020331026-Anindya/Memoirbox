@@ -1,17 +1,34 @@
 # Contributing to MemoirBox
 
-Thank you for considering contributing to MemoirBox! Follow these steps to propose changes:
+Thank you for wanting to improve **MemoirBox**! Contributions of all kinds are welcome.
 
-1. **Fork** this repository to your GitHub account.
-2. **Create a branch** for your work:
-   ```bash
-   git checkout -b my-feature
-   ```
-3. **Commit** your changes with clear messages.
-4. **Push** the branch to your fork:
-   ```bash
-   git push origin my-feature
-   ```
-5. **Open a pull request** against the `main` branch of this repository and describe your changes.
+## Getting Started
 
-We appreciate your contributions!
+1. **Fork** this repository and clone your fork locally.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Copy `.env.example` to `.env` and adjust the values for your setup.
+4. Create a feature branch:
+   ```bash
+   git checkout -b feature/my-change
+   ```
+5. Start the development servers:
+   ```bash
+   npm run dev
+   ```
+
+## Code Guidelines
+
+- Keep the code style consistent with the existing project.
+- Write clear commit messages and descriptive PR titles.
+- Add tests when adding new functionality where possible.
+
+## Pull Requests
+
+1. Ensure your branch is up to date with `main` before opening the PR.
+2. Provide a clear description of your changes in the PR body.
+3. One approval from a maintainer is required before merging.
+
+Thank you for helping make MemoirBox better!
