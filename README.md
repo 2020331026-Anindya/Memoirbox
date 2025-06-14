@@ -8,7 +8,7 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](CHANGELOG.md)  
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/2020331026-Anindya/MemoirBox/actions)
+[![CI](https://github.com/2020331026-Anindya/MemoirBox/actions/workflows/ci.yml/badge.svg)](https://github.com/2020331026-Anindya/MemoirBox/actions/workflows/ci.yml)
 
 ---
 
