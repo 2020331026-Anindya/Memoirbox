@@ -1,3 +1,12 @@
+**Updating README.md**
+
+The user wants to update their README file to include a logo and UI images. They’ve already provided an existing layout. I’ll create a new README.md snippet, adding
+
+Thought for a couple of seconds
+
+Below is the complete content for your updated `README.md`, embedding your project logo and full UI gallery. Copy this into your repo’s `README.md`:
+
+```markdown
 <p align="center">
   <!-- Project Logo -->
   <img src="assets/logo.png" alt="MemoirBox Logo" width="200" />
@@ -19,17 +28,16 @@
 3. [Tech Stack](#tech-stack)  
 4. [Installation](#installation)  
 5. [Usage](#usage)  
-6. [Logo & Brand](#logo--brand)  
-7. [UI Preview](#ui-preview)  
-8. [Roadmap](#roadmap)  
-9. [Contributing](#contributing)  
-10. [License](#license)  
+6. [UI Preview](#ui-preview)  
+7. [Roadmap](#roadmap)  
+8. [Contributing](#contributing)  
+9. [License](#license)  
 
 ---
 
 ## Introduction
 
-In a world where moments pass in the blink of an eye, MemoirBox offers a creative, secure platform to build multimedia “memory capsules” that unlock on dates, at places, or via face recognition—bringing your past vividly to life.
+In a world where moments pass in the blink of an eye, MemoirBox offers a secure, creative platform to build multimedia “memory capsules” that unlock on dates, at locations, or via face recognition—bringing your past vividly to life.
 
 ---
 
@@ -67,7 +75,7 @@ In a world where moments pass in the blink of an eye, MemoirBox offers a creativ
 git clone git@github.com:2020331026-Anindya/MemoirBox.git
 cd MemoirBox
 npm install           # or yarn install
-cp .env.example .env  # set up your env vars
+cp .env.example .env  # set environment variables
 npm run dev           # spin up frontend + backend
 ```
 
@@ -75,42 +83,26 @@ npm run dev           # spin up frontend + backend
 
 ## Usage
 
-1. Sign up or log in
-2. Create a new “Memory Capsule”
-3. Upload text, images, video or audio
-4. Configure unlock trigger (date/location/face)
-5. Invite collaborators or enjoy solo
-
----
-
-## Logo & Brand
-
-Your single-source logo should live in:
-
-```
-MemoirBox/
-└── assets/
-    └── logo.png       # 600×600px recommended
-```
-
-Embed it like this:
-
-```md
-<p align="center">
-  <img src="assets/logo.png" alt="MemoirBox Logo" width="200" />
-</p>
-```
+1. Sign up or log in  
+2. Create a new “Memory Capsule”  
+3. Upload text, images, video or audio  
+4. Configure unlock trigger (date/location/face)  
+5. Invite collaborators or enjoy solo  
 
 ---
 
 ## UI Preview
 
-Store all your UI exports under:
+Place your screenshots under `docs/ui/`:
 
-```
+```plaintext
 MemoirBox/
 └── docs/
     └── ui/
+        ├── landing-page.png
+        ├── login.png
+        ├── signup.png
+        ├── reset-password.png
         ├── capsule-create.png
         ├── timeline-view.png
         ├── map-unlock.png
@@ -118,61 +110,66 @@ MemoirBox/
         └── face-login.png
 ```
 
-| Screen                     | Preview                                       |
-| -------------------------- | --------------------------------------------- |
-| **Capsule Creation Form**  | ![Create Capsule](docs/ui/capsule-create.png) |
-| **Timeline View**          | ![Timeline](docs/ui/timeline-view.png)        |
-| **Geolocation Unlock Map** | ![Map Unlock](docs/ui/map-unlock.png)         |
-| **Countdown Timer**        | ![Countdown](docs/ui/countdown.png)           |
-| **Face-ID Login**          | ![Face Login](docs/ui/face-login.png)         |
+<p align="center">
+  <!-- Landing page -->
+  <img src="docs/ui/landing-page.png" alt="Landing Page" width="800"/>
+</p>
+
+<p align="center">
+  <!-- Auth screens -->
+  <img src="docs/ui/login.png" alt="Login Screen" width="350"/>
+  <img src="docs/ui/signup.png" alt="Signup Screen" width="350"/>
+  <img src="docs/ui/reset-password.png" alt="Reset Password Screen" width="350"/>
+</p>
+
+<p align="center">
+  <!-- Core feature screens -->
+  <img src="docs/ui/capsule-create.png" alt="Capsule Creation Form" width="350"/>
+  <img src="docs/ui/timeline-view.png" alt="Timeline View" width="350"/>
+  <img src="docs/ui/map-unlock.png" alt="Geolocation Unlock Map" width="350"/>
+  <img src="docs/ui/countdown.png" alt="Countdown Timer" width="350"/>
+</p>
+
+<p align="center">
+  <!-- Face recognition -->
+  <img src="docs/ui/face-login.png" alt="Face Recognition Login" width="350"/>
+</p>
 
 ---
 
 ## Roadmap
 
-* **Phase 1 (M1):** UI/UX mockups, auth setup, DB schema
-* **Phase 2 (M2):** Core features (timed & geo unlock, uploads)
-* **Phase 3 (M3):** Collaboration, search, notifications, ML tuning
-* **Future:** Mobile app, analytics, public share pages
+- **Phase 1 (M1):** UI/UX mockups, auth setup, DB schema  
+- **Phase 2 (M2):** Core features (timed & geo unlock, uploads)  
+- **Phase 3 (M3):** Collaboration, search, notifications, ML tuning  
+- **Future:** Mobile app, analytics, shareable public pages  
 
 ---
 
 ## Contributing
 
-1. Fork the repo
-2. Create a branch (`git checkout -b feature/XYZ`)
-3. Commit (`git commit -m "Add XYZ"`)
-4. Push (`git push origin feature/XYZ`)
-5. Open a PR
+1. Fork the repo  
+2. Create a branch (`git checkout -b feature/XYZ`)  
+3. Commit your changes (`git commit -m "Add XYZ"`)  
+4. Push (`git push origin feature/XYZ`)  
+5. Open a Pull Request  
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for more.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.
 
 ---
 
 ## License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
 ```
 
-**Quick setup recap:**
+**Folder recap:**
 
 ```
-
 MemoirBox/
 ├── assets/
 │   └── logo.png
 ├── docs/
-│   └── ui/
-│       ├── capsule-create.png
-│       ├── timeline-view.png
-│       └── ...etc
-└── README.md
-
+│   └── ui/         # your screenshot files here
+└── README.md       # replace content with above snippet
 ```
-
-1. Drop your `logo.png` into `assets/`.  
-2. Export your React/Material-UI screens to `docs/ui/`.  
-3. Copy/paste the above into `README.md`, updating paths or filenames as needed.  
-
-That will give you a badge-rich, logo-centered README with a full UI gallery. Let me know if you’d like to add animated GIFs, live demo badges, or anything else!
