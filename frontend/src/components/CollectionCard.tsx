@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 interface CollectionCardProps {
   id: string;
   name: string;
